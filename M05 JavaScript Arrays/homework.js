@@ -66,8 +66,11 @@ function arrayContiene(array, elemento) {
    // Verifica si el elemento existe dentro del arreglo recibido.
    // Retornar true si está, o false si no está.
    // Tu código:
-   if(array.includes(elemento)) return true;
-   else return false;
+
+   // if(array.includes(elemento)) return true;
+   // else return false;
+   
+   return array.includes(elemento);
 }
 
 function agregarNumeros(arrayOfNums) {
